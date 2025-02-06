@@ -67,7 +67,16 @@ const routes = [
     meta:{
       requiresAuth: true
     }
-  }
+  },
+
+  {
+    path: "/types/:typeId",
+    name: "type-details",
+    component: HomeView,
+    meta:{
+      requiresAuth: true
+    }
+  },
 
 ];
 
